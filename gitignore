@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+checkmyweb_history.json
+debug_page*.html
+.DS_Store
+Thumbs.db
