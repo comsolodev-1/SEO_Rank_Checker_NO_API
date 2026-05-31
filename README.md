@@ -13,7 +13,7 @@ A personal CLI tool to track your website's Google search rankings — no API ke
 
 This tool scrapes Google directly. It works well for **personal, low-volume use** (a few searches at a time, a few times a day). Google may occasionally return a CAPTCHA or block the request — if that happens, just wait a few minutes and try again with a longer `--delay`.
 
-For **reliable, production-grade** rank checking, see [checkmyweb](https://github.com/yourusername/checkmyweb) — the SerpAPI-powered version.
+For **reliable, production-grade** rank checking, see [checkmyweb](https://github.com/comsolodev-1/SEO_Rank_Checker) — the SerpAPI-powered version.
 
 ---
 
@@ -80,7 +80,7 @@ python scrape.py --site yoursite.com --keywords "seo tool" --alert 5 --save
 
 ### Philippine local search
 ```bash
-python scrape.py --site yoursite.com --keywords "transient house daet" --country ph --save
+python scrape.py --site yoursite.com --keywords "transient house" --country ph --save
 ```
 
 ### View rank history
