@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CheckMyWeb v6 - Personal SEO Rank Checker
+scrape v1 - Personal SEO Rank Checker
 Pure scraper — no API key needed. Just Python.
 
 Requirements:
@@ -574,7 +574,7 @@ def parse_args():
   python checkmyweb.py --site github.com --keywords "open source projects" "free code hosting"
 
   Local business search (Philippines):
-  python checkmyweb.py --site joancetransienthouse.com --keywords "transient house daet" "where to stay daet" --country ph --save
+  python checkmyweb.py --site transienthouse.com --keywords "transient house" "where to stay" --country ph --save
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   WHY DOESN'T facebook.com SHOW FOR "facebook"?
@@ -587,7 +587,7 @@ def parse_args():
 
   This is Google behavior — not a tool limitation.
   This tool is built for real SEO use cases:
-    * "transient house daet"     -> does joancetransienthouse.com rank?
+    * "transient house"     -> does transienthouse.com rank?
     * "best pizza delivery"      -> does yourpizzaplace.com rank?
     * "affordable web hosting"   -> does yourhostingsite.com rank?
 
